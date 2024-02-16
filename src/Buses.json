@@ -1,0 +1,11 @@
+{
+          "buses": [
+              {
+                  "id": 1,
+                  "name": "Ratna Travels",
+                  "category": "House",
+                  "startLocation": "Colomob",
+                  "endLocation": "Jaffna"                  
+              }            
+          ]
+      }

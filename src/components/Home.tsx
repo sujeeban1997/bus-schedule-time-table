@@ -9,36 +9,7 @@ const { Title } = Typography;
 
 const getRandomInt = (max: number, min = 0) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const searchResult = (query: string) =>
-          new Array(getRandomInt(5))
-                    .join('.')
-                    .split('.')
-                    .map((_, idx) => {
-                              const category = `${query}${idx}`;
-                              return {
-                                        value: category,
-                                        label: (
-                                                  <div
-                                                            style={{
-                                                                      display: 'flex',
-                                                                      justifyContent: 'space-between',
-                                                            }}
-                                                  >
-                                                            <span>
-                                                                      Found {query} on{' '}
-                                                                      <a
-                                                                                href={`https://s.taobao.com/search?q=${query}`}
-                                                                                target="_blank"
-                                                                                rel="noopener noreferrer"
-                                                                      >
-                                                                                {category}
-                                                                      </a>
-                                                            </span>
-                                                            <span>{getRandomInt(200, 100)} results</span>
-                                                  </div>
-                                        ),
-                              };
-                    });
+
 
 
 const Home = () => {
@@ -65,13 +36,10 @@ const Home = () => {
           }
 
           return (
-                    <div>
-                              <img className='hero-image' src={HeroImg} alt='' />
+                    <div className='home-page-hero'>
                               <div className='card-form-section'>
+                                                  <h4 className='form-main-heading'>Where do you want to go?</h4>
                                         <div className='form-section'>
-                                                  <h4>Where do you want to go?</h4>
-
-
                                                   <div className='form-text-field'>
                                                             <h6 className='form-title-name'>Start location</h6>
                                                             <Select className='form-field'
@@ -148,7 +116,6 @@ const Home = () => {
                                                             Search buses
                                                             </Button>
                                                   </div>
-
                                         </div>
                               </div>
                     </div>

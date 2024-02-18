@@ -12,16 +12,20 @@
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 99;
 }
 
 .logo-image{
   width: 100%;
 }
 
-.hero-image{
-  width: 100%;
-  height: 80vh;
-  object-fit: cover;
+.home-page-hero{
+  background-image: url(./images/Hero2.jpg);
+  height: 90vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
 
 .form-title-name{
@@ -51,30 +55,34 @@
 }
 
 .form-section {
-  width: 25rem;
-  padding: 4rem 2rem;
-  margin: 4rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    border-radius: 12px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 
 .form-text-field {
   margin-bottom: 1.5rem;
-  width: 100%;
+  width: 12rem;
 }
 
 .form-time-picker{
-  justify-content: space-between;
-  gap: 15px;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-.form-section h4{
+.form-main-heading{
   margin-bottom: 2rem;
 }
 
 .card-form-section{
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 12px;
+    background-color: #e9e9e9bf;
+    backdrop-filter: blur(14px);
 }
 
 .search-button{
@@ -98,8 +106,33 @@
 
 @media only screen and (max-width: 432px) {
   .form-section {
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     margin: 0rem;
     border-radius: 0px;
+    flex-direction: column;
+}
+
+.form-time-picker {
+  gap: 20px;
+  width: 100%;
+}
+
+.card-form-section {
+  width: 100%;
+    padding: 2rem 0rem;
+    margin: 1rem;
+}
+
+.form-text-field {
+  width: 100%;
+}
+
+.form-main-heading {
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.home-page-hero{
+  height: 100vh;
 }
 }

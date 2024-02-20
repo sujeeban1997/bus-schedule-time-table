@@ -38,7 +38,7 @@ const Home = () => {
           return (
                     <div className='home-page-hero'>
                               <div className='card-form-section'>
-                                                  <h4 className='form-main-heading'>Where do you want to go?</h4>
+                                                  <h2 className='form-main-heading'>Where do you want to go?</h2>
                                         <div className='form-section'>
                                                   <div className='form-text-field'>
                                                             <h6 className='form-title-name'>Start location</h6>

@@ -39,7 +39,7 @@ const Navbar = () => {
                                 </NavLink>
                             </li>
                         </ul>
-                        <div className="buttons-section">
+                        {/* <div className="buttons-section">
                             <NavLink to="/login" className="btn btn-outline-dark">
                                 <i className="fa fa-sign-in me-2"></i>Login
                             </NavLink>
@@ -49,7 +49,7 @@ const Navbar = () => {
                             <NavLink to="/cart" className="btn btn-outline-dark ms-2">
                                 <i className="fa fa-heart me-2"></i>Favourite
                             </NavLink>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </nav>

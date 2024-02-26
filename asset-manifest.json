@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sujeeban1997.github.io/bus-schedule-time-table/static/css/main.b57d526f.css",
+    "main.js": "/sujeeban1997.github.io/bus-schedule-time-table/static/js/main.28ce0b97.js",
+    "static/js/592.c2c9c6f5.chunk.js": "/sujeeban1997.github.io/bus-schedule-time-table/static/js/592.c2c9c6f5.chunk.js",
+    "static/media/Hero2.jpg": "/sujeeban1997.github.io/bus-schedule-time-table/static/media/Hero2.f3872f630431d91da6f7.jpg",
+    "static/media/nav-logo.png": "/sujeeban1997.github.io/bus-schedule-time-table/static/media/nav-logo.8bd12f8b1251c55c62d1.png",
+    "index.html": "/sujeeban1997.github.io/bus-schedule-time-table/index.html",
+    "main.b57d526f.css.map": "/sujeeban1997.github.io/bus-schedule-time-table/static/css/main.b57d526f.css.map",
+    "main.28ce0b97.js.map": "/sujeeban1997.github.io/bus-schedule-time-table/static/js/main.28ce0b97.js.map",
+    "592.c2c9c6f5.chunk.js.map": "/sujeeban1997.github.io/bus-schedule-time-table/static/js/592.c2c9c6f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b57d526f.css",
+    "static/js/main.28ce0b97.js"
+  ]
+}
